@@ -3,6 +3,23 @@
   src: url("/public/NanumPenScript-Regular.ttf");
 }
 
+html,
+body {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+}
+
+#root {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: rgba(100, 100, 100, 0.2) 0 0 29px 0;
+}
+
 body * {
   font-family: "NanumPenScript";
 }
